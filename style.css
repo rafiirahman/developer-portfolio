@@ -1,6 +1,38 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-h1{
+
+h1 {
     font-size: 80px;
+}
+
+.headingcolor {
+    color: orange;
+}
+
+strong {
+    color: deeppink;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 40px;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-b {
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+    background-image: linear-gradient(green, yellow);
+    color: white;
+    font-weight: 600;
+
 }
